@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100
+}
+.menu-flags button {
+  padding: 0px;
+  color: white;
+  font-weight: 500;
+  border: 0;
+  height: 30px;
+}
+.menu-flags button svg {
+  border-radius: 45px;
+  height: 21px;
+  width: 21px;
+}
+.menu-flags button:after{
+  color: white;
+  border-top: 5px solid #ffffff;
+  margin: 0px;
+}
+.menu-flags button span{
+  margin: 0px;
+}
+.menu-flags ul{
+  background-color: #233155;
+  color: white;
+  width: 76px;
+}
+.menu-flags ul::-webkit-scrollbar {
+  display: none;
+}
+.menu-flags ul li:hover{
+  background-color: #dcbf34;
+}
+.connect_wallet{
+  padding: 0%;
+}
+.connect_wallet_address .connect_wallet {
+  height: 33px !important;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  width: auto!important;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 0.75;
+  text-transform: uppercase;
+  border-radius: 4px;
+  min-width: 115px!important;
+}
+.connect_wallet_address button img{
+  height: 10px !important;
+  width: 10px !important;
+}
+.vote_contract input{
+margin-right: 8px;
+}
+.vote_contract{
+  justify-content: space-between;
+}
+.react-tabs__tab--selected{
+  background-color: #233155;
+  border-radius: 10px;
+  border: 0px !important;
+}
+.react-tabs__tab--selected:focus-visible {
+  outline: none;
+}
+.pappall_input{
+  width: 386px;
+}
